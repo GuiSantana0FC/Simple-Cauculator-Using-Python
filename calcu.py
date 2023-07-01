@@ -1,13 +1,13 @@
 print("Hello, World!")
-print("Porfavor insira um numero")
+print("Please, choose a number.")
 n1 = int(input("--> "))
-print("insira outro numero")
+print("Choose another number.")
 n2 = int(input("--> "))
-print("Vai ser soma ou subtração? *INSIRA TUDO MINUSCULO E SEM ACENTO!*")
+print("Going to be addition or subtraction?")
 e1 = input("--> ")
-if e1 == ("soma"):
+if e1 == ("addition"):
     print(n1 + n2)
 
-if e1 == ("subtraçao"):
+if e1 == ("subtraction"):
     print(n1 - n2)
     
